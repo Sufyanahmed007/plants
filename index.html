@@ -95,7 +95,7 @@
             </div>    
         </div>
     
-        <h1 class="credit"> created by <span> SFC Brainics </span> Studying PHP in Aptech </h1>
+        <h1 class="credit"> created by <span> SFC Brainics </span></h1>
     
     </section>
 
@@ -124,7 +124,10 @@
                 }).when('/productdetail', {
                     templateUrl:'productdetail.html',
                     controller:'productdetailController'
-                });
+                }).when('/category', {
+                    templateUrl:'category.html',
+                    controller:'categoryController'
+                })
             }
         );
         app.controller('homeController', function($scope, $rootScope){
@@ -148,8 +151,18 @@
         app.controller('productdetailController', function($scope, $rootScope){
             $rootScope.PageTitle = "Product Detail";
         })
+        app.controller('categoryController', function($scope, $rootScope){
+            $rootScope.PageTitle = "Category";
+        })
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
+<script>
+    console.log()
+    const location_window = window.location.href;
+    const last_8 = location_window.substring(location_window.length - 8);
+    if(last_8 == 'category'){
+        alert("success");
+    }
+</script>
 </html>

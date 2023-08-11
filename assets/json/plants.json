@@ -1,29 +1,22 @@
 {
-    "plants":[
+    "flowering_plants":[
         {
-            "plant_name":"Organic Banana",
-            "discounted_price":"$10.50",
-            "original_price":"$20.25"
+            "plant_name":"Rose",
+            "original_price":"$12.50",
+            "discounted_price":"$20.50",
+            "image_url":"assets/images/flower_plants/Dahlias.png"
         },
         {
-            "plant_name":"Organic Cucumber",
-            "discounted_price":"$10.50",
-            "original_price":"$20.25"
-        },
-        {
-            "plant_name":"Organic Banana",
-            "discounted_price":"$10.50",
-            "original_price":"$20.25"
-        },
-        {
-            "plant_name":"Organic Banana",
-            "discounted_price":"$10.50",
-            "original_price":"$20.25"
-        },
-        {
-            "plant_name":"Organic Banana",
-            "discounted_price":"$10.50",
-            "original_price":"$20.25"
+            "plant_name":"Dahlia",
+            "original_price":"$12.50",
+            "discounted_price":"$20.50",
+            "image_url":"assets/images/indoor_plants/defodils.png"
         }
+    ],
+    "outdoor_plants":[
+
+    ],
+    "indoor_plants":[
+
     ]
 }
