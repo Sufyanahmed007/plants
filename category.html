@@ -1,0 +1,12 @@
+<section class="category" id="category">
+    <h1 class="heading"><span>category</span></h1>
+    <div class="box-container">
+        <div class="box" ng-repeat="plant in plants">
+            <h3>{{ plant.plant_name }}</h3>
+            <p>Original Price: {{ plant.original_price }}</p>
+            <p>Discounted Price: {{ plant.discounted_price }}</p>
+            <img ng-src="{{ plant.image_url }}" height="188px" class="rounded" alt="{{ plant.plant_name }}">
+            <a href="#!category" class="btn">Explore Now</a>
+        </div>
+    </div>
+</section>
