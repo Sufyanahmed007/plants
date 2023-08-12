@@ -2,21 +2,44 @@
     "flowering_plants":[
         {
             "plant_name":"Rose",
-            "original_price":"$12.50",
+            "original_price":"$120.50",
             "discounted_price":"$20.50",
-            "image_url":"assets/images/flower_plants/Dahlias.png"
+            "image_url":"assets/images/flower_plants/rose.png"
         },
         {
-            "plant_name":"Dahlia",
-            "original_price":"$12.50",
-            "discounted_price":"$20.50",
-            "image_url":"assets/images/indoor_plants/defodils.png"
+            "plant_name":"Daffodils ",
+            "original_price":"$13.50",
+            "discounted_price":"$10.50",
+            "image_url":"assets/images/flower_plants/defodils.png"
         }
     ],
     "outdoor_plants":[
+        {
+            "plant_name":"Lavender",
+            "original_price":"$10.50",
+            "discounted_price":"$5.50",
+            "image_url":"assets/images/outdoor_plants/lavander.png"
+        },
+        {
+            "plant_name":"Japanese Maple",
+            "original_price":"$20.50",
+            "discounted_price":"$15.50",
+            "image_url":"assets/images/outdoor_plants/maple.png"
+        }
 
     ],
     "indoor_plants":[
-
+        {
+            "plant_name":"Aloe Vera",
+            "original_price":"$25.50",
+            "discounted_price":"$19.50",
+            "image_url":"assets/images/indoor_plants/alovera.png"
+        },
+        {
+            "plant_name":"Money Plant",
+            "original_price":"$10.50",
+            "discounted_price":"$7.50",
+            "image_url":"assets/images/indoor_plants/moneyplant.png"
+        }
     ]
 }
